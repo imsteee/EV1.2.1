@@ -119,7 +119,7 @@ require_once dirname(__DIR__) . '/includes/header.php';
                     <div class="station-footer">
                         <div class="station-actions">
                             <?php if ($availableCount > 0 && isLoggedIn()): ?>
-                                <a href="<?= APP_URL ?>/pages/book.php?station_id=<?= $station['station_id'] ?>"
+                                <a href="<?= APP_URL ?>/pages/bookings.php?station_id=<?= $station['station_id'] ?>"
                                    class="btn btn-primary btn-sm">
                                     <i class="fas fa-calendar-check"></i> Book Now
                                 </a>
